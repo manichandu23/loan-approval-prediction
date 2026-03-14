@@ -9,6 +9,7 @@ with open("model.pkl", "rb") as f:
     model = pickle.load(f)
 
 MODEL_ACCURACY = 100.0
+# UI improvement update
 
 @app.route('/')
 def home():
